@@ -1,44 +1,71 @@
-# clinica-frontend
+Projeto: Sistema de Atendimento Clínico
 
-This template should help get you started developing with Vue 3 in Vite.
+Descrição
 
-## Recommended IDE Setup
+Este projeto foi desenvolvido com o objetivo de simular um sistema de atendimento clínico, aplicando conceitos de programação e organização de software.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+A aplicação permite gerenciar informações de pacientes e atendimentos, utilizando um banco de dados NoSQL.
 
-## Recommended Browser Setup
+Funcionalidades
+	•	Cadastro de pacientes
+	•	Registro de atendimentos
+	•	Listagem de dados
+	•	Integração com banco de dados MongoDB
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Tecnologias utilizadas
+	•	Java
+	•	MongoDB
+	•	MongoDB Compass
+	•	Git e GitHub
+	•	VS Code
 
-## Customize configuration
+Banco de Dados
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+O projeto utiliza o MongoDB como banco de dados, rodando localmente.
 
-## Project Setup
+A manipulação e visualização dos dados foram feitas através do MongoDB Compass, uma interface gráfica que facilita:
+	•	Criação de collections
+	•	Inserção de documentos
+	•	Visualização dos dados de forma prática
 
-```sh
-npm install
-```
+Conexão local
+mongodb://localhost:27017
 
-### Compile and Hot-Reload for Development
+Exemplo de estrutura
 
-```sh
-npm run dev
-```
+Banco de dados: clinica_db
+Collections:
+	•	pacientes
+	•	atendimentos
 
-### Compile and Minify for Production
+Como executar o projeto
 
-```sh
-npm run build
-```
+1. Clone o repositório
+git clone https://github.com/Larissatauchenrua/sistema-atendimento-clinico.git
 
-### Lint with [ESLint](https://eslint.org/)
+2. Abra no VS Code
 
-```sh
-npm run lint
-```
+3. Configure o banco de dados
+	•	Certifique-se de que o MongoDB está rodando
+	•	Abra o MongoDB Compass
+	•	Conecte em:
+mongodb://localhost:27017
+
+4. Execute o projeto
+	•	Rode a classe principal (Main.java)
+
+Objetivo
+
+Este projeto tem como foco:
+	•	Praticar Programação Orientada a Objetos (POO)
+	•	Trabalhar com banco de dados NoSQL (MongoDB)
+	•	Organizar um projeto real do início ao fim
+
+Autora
+
+Larissa Tauchen Rua
+
+⸻
+
+Projeto desenvolvido para fins de estudo 
+:::
